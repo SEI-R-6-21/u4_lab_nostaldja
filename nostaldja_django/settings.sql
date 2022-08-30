@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE Nostaldja;
+CREATE USER NostaldjaUser WITH PASSWORD '1234';
+GRANT ALL PRIVILEGES ON DATABASE Nostaldja TO NostaldjaUser;
