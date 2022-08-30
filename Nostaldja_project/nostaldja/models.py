@@ -16,7 +16,7 @@ class Decades(models.Model):
 class Fads(models.Model):
     """fads model"""
     decade = models.ForeignKey(
-        Decades, on_delete=models.CASCADE, related_name='decade')
+        Decades, on_delete=models.CASCADE, related_name='fad')
     name = models.CharField(max_length=100)
     imague_url = models.CharField(max_length=200, null=True)
     description = models.CharField(max_length=100)
