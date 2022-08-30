@@ -1,0 +1,3 @@
+CREATE DATABASE nosta;
+CREATE USER nostauser WITH PASSWORD 'nosta';
+GRANT ALL PRIVILEGES ON DATABASE nosta TO nostauser;
